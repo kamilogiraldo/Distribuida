@@ -1,0 +1,28 @@
+class Program
+{
+    static void Main()
+    {
+        // Solicitamos al usuario que ingrese un número entero
+        Console.Write("Ingresa un número entero: ");
+        int numero = Convert.ToInt32(Console.ReadLine());
+
+        // Comenzamos la estructura de control if-else
+        if (numero > 0)
+        {
+            // Si el número es mayor que 0, entramos en esta rama
+            Console.WriteLine("El número es positivo.");
+        }
+        else if (numero < 0)
+        {
+            // Si el número es menor que 0, entramos en esta rama
+            Console.WriteLine("El número es negativo.");
+        }
+        else
+        {
+            // Si el número no es mayor ni menor que 0, entonces debe ser 0
+            Console.WriteLine("El número es cero.");
+        }
+    }
+}
+
+
